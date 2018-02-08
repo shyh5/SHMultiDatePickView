@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0D81E5D202C2FAA00755750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E5C202C2FAA00755750 /* AppDelegate.swift */; };
+		B0D81E5F202C2FAA00755750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E5E202C2FAA00755750 /* ViewController.swift */; };
+		B0D81E62202C2FAA00755750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D81E60202C2FAA00755750 /* Main.storyboard */; };
+		B0D81E64202C2FAA00755750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D81E63202C2FAA00755750 /* Assets.xcassets */; };
+		B0D81E67202C2FAA00755750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D81E65202C2FAA00755750 /* LaunchScreen.storyboard */; };
+		B0D81E7C202C309400755750 /* Date_FYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E7A202C309400755750 /* Date_FYExtension.swift */; };
+		B0D81E7D202C309400755750 /* SHCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E7B202C309400755750 /* SHCalendarManager.swift */; };
+		B0D81E83202C30EF00755750 /* SHMultiBasicDatePickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E82202C30EF00755750 /* SHMultiBasicDatePickView.swift */; };
+		B0D81E85202C319100755750 /* UIColor_SHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E84202C319100755750 /* UIColor_SHExtension.swift */; };
+		B0D81E87202C31CF00755750 /* SHHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E86202C31CF00755750 /* SHHelper.swift */; };
+		B0D81E89202C32C700755750 /* SHMultiSystemDatePickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E88202C32C700755750 /* SHMultiSystemDatePickView.swift */; };
+		B0D81E8D202C33E100755750 /* SHMultiContentDatePickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E8C202C33E100755750 /* SHMultiContentDatePickView.swift */; };
+		B0D81E8F202C345F00755750 /* SHMultiCustomDatePickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E8E202C345F00755750 /* SHMultiCustomDatePickView.swift */; };
+		B0D81E93202C39A900755750 /* SHMultiDateHUB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E92202C39A900755750 /* SHMultiDateHUB.swift */; };
+		B0D81E96202C464700755750 /* SHTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E94202C464700755750 /* SHTabView.swift */; };
+		B0D81E99202C46D300755750 /* SHCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D81E98202C46D300755750 /* SHCalendarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0D81E59202C2FAA00755750 /* SHMultiDatePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHMultiDatePickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D81E5C202C2FAA00755750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0D81E5E202C2FAA00755750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0D81E61202C2FAA00755750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0D81E63202C2FAA00755750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D81E66202C2FAA00755750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0D81E68202C2FAA00755750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D81E7A202C309400755750 /* Date_FYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date_FYExtension.swift; sourceTree = "<group>"; };
+		B0D81E7B202C309400755750 /* SHCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHCalendarManager.swift; sourceTree = "<group>"; };
+		B0D81E82202C30EF00755750 /* SHMultiBasicDatePickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMultiBasicDatePickView.swift; sourceTree = "<group>"; };
+		B0D81E84202C319100755750 /* UIColor_SHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_SHExtension.swift; sourceTree = "<group>"; };
+		B0D81E86202C31CF00755750 /* SHHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHHelper.swift; sourceTree = "<group>"; };
+		B0D81E88202C32C700755750 /* SHMultiSystemDatePickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMultiSystemDatePickView.swift; sourceTree = "<group>"; };
+		B0D81E8C202C33E100755750 /* SHMultiContentDatePickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMultiContentDatePickView.swift; sourceTree = "<group>"; };
+		B0D81E8E202C345F00755750 /* SHMultiCustomDatePickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMultiCustomDatePickView.swift; sourceTree = "<group>"; };
+		B0D81E92202C39A900755750 /* SHMultiDateHUB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMultiDateHUB.swift; sourceTree = "<group>"; };
+		B0D81E94202C464700755750 /* SHTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHTabView.swift; sourceTree = "<group>"; };
+		B0D81E98202C46D300755750 /* SHCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHCalendarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D81E56202C2FAA00755750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0D81E50202C2FAA00755750 = {
+			isa = PBXGroup;
+			children = (
+				B0D81E5B202C2FAA00755750 /* SHMultiDatePickView */,
+				B0D81E5A202C2FAA00755750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D81E5A202C2FAA00755750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D81E59202C2FAA00755750 /* SHMultiDatePickView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D81E5B202C2FAA00755750 /* SHMultiDatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				B0D81E6F202C2FF000755750 /* source */,
+				B0D81E5C202C2FAA00755750 /* AppDelegate.swift */,
+				B0D81E5E202C2FAA00755750 /* ViewController.swift */,
+				B0D81E94202C464700755750 /* SHTabView.swift */,
+				B0D81E60202C2FAA00755750 /* Main.storyboard */,
+				B0D81E63202C2FAA00755750 /* Assets.xcassets */,
+				B0D81E65202C2FAA00755750 /* LaunchScreen.storyboard */,
+				B0D81E68202C2FAA00755750 /* Info.plist */,
+			);
+			path = SHMultiDatePickView;
+			sourceTree = "<group>";
+		};
+		B0D81E6F202C2FF000755750 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B0D81E70202C2FF000755750 /* view */,
+				B0D81E71202C2FF000755750 /* tool */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		B0D81E70202C2FF000755750 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B0D81E98202C46D300755750 /* SHCalendarView.swift */,
+				B0D81E82202C30EF00755750 /* SHMultiBasicDatePickView.swift */,
+				B0D81E88202C32C700755750 /* SHMultiSystemDatePickView.swift */,
+				B0D81E8C202C33E100755750 /* SHMultiContentDatePickView.swift */,
+				B0D81E8E202C345F00755750 /* SHMultiCustomDatePickView.swift */,
+				B0D81E92202C39A900755750 /* SHMultiDateHUB.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B0D81E71202C2FF000755750 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				B0D81E84202C319100755750 /* UIColor_SHExtension.swift */,
+				B0D81E7A202C309400755750 /* Date_FYExtension.swift */,
+				B0D81E7B202C309400755750 /* SHCalendarManager.swift */,
+				B0D81E86202C31CF00755750 /* SHHelper.swift */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D81E58202C2FAA00755750 /* SHMultiDatePickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D81E6B202C2FAA00755750 /* Build configuration list for PBXNativeTarget "SHMultiDatePickView" */;
+			buildPhases = (
+				B0D81E55202C2FAA00755750 /* Sources */,
+				B0D81E56202C2FAA00755750 /* Frameworks */,
+				B0D81E57202C2FAA00755750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHMultiDatePickView;
+			productName = SHMultiDatePickView;
+			productReference = B0D81E59202C2FAA00755750 /* SHMultiDatePickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D81E51202C2FAA00755750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SHyH5;
+				TargetAttributes = {
+					B0D81E58202C2FAA00755750 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0D81E54202C2FAA00755750 /* Build configuration list for PBXProject "SHMultiDatePickView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0D81E50202C2FAA00755750;
+			productRefGroup = B0D81E5A202C2FAA00755750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D81E58202C2FAA00755750 /* SHMultiDatePickView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D81E57202C2FAA00755750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D81E67202C2FAA00755750 /* LaunchScreen.storyboard in Resources */,
+				B0D81E64202C2FAA00755750 /* Assets.xcassets in Resources */,
+				B0D81E62202C2FAA00755750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D81E55202C2FAA00755750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D81E5F202C2FAA00755750 /* ViewController.swift in Sources */,
+				B0D81E7C202C309400755750 /* Date_FYExtension.swift in Sources */,
+				B0D81E7D202C309400755750 /* SHCalendarManager.swift in Sources */,
+				B0D81E93202C39A900755750 /* SHMultiDateHUB.swift in Sources */,
+				B0D81E8F202C345F00755750 /* SHMultiCustomDatePickView.swift in Sources */,
+				B0D81E87202C31CF00755750 /* SHHelper.swift in Sources */,
+				B0D81E85202C319100755750 /* UIColor_SHExtension.swift in Sources */,
+				B0D81E96202C464700755750 /* SHTabView.swift in Sources */,
+				B0D81E89202C32C700755750 /* SHMultiSystemDatePickView.swift in Sources */,
+				B0D81E8D202C33E100755750 /* SHMultiContentDatePickView.swift in Sources */,
+				B0D81E83202C30EF00755750 /* SHMultiBasicDatePickView.swift in Sources */,
+				B0D81E5D202C2FAA00755750 /* AppDelegate.swift in Sources */,
+				B0D81E99202C46D300755750 /* SHCalendarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0D81E60202C2FAA00755750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D81E61202C2FAA00755750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0D81E65202C2FAA00755750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D81E66202C2FAA00755750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0D81E69202C2FAA00755750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0D81E6A202C2FAA00755750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D81E6C202C2FAA00755750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH378EQQYB;
+				INFOPLIST_FILE = SHMultiDatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shyh5.SHMultiDatePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0D81E6D202C2FAA00755750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH378EQQYB;
+				INFOPLIST_FILE = SHMultiDatePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shyh5.SHMultiDatePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D81E54202C2FAA00755750 /* Build configuration list for PBXProject "SHMultiDatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D81E69202C2FAA00755750 /* Debug */,
+				B0D81E6A202C2FAA00755750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D81E6B202C2FAA00755750 /* Build configuration list for PBXNativeTarget "SHMultiDatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D81E6C202C2FAA00755750 /* Debug */,
+				B0D81E6D202C2FAA00755750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0D81E51202C2FAA00755750 /* Project object */;
+}
