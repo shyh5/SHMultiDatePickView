@@ -6,6 +6,9 @@
 
 一行代码调用时间选择器
 如果需要上面的前后选择日历的控件只需要初始化一个SHCalendarView 即可，加载到父视图上。
+
+![carbon (1).png](http://upload-images.jianshu.io/upload_images/667152-d024f1a4393d933d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ```
     fileprivate
     lazy var calenderV : SHCalendarView = {
@@ -21,6 +24,7 @@
  ```   
  
  使用时间选择器的话，只需要设置一下枚举型即可：
+ ![carbon.png](http://upload-images.jianshu.io/upload_images/667152-54015d7275d844cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
  ```
  public enum PickMode : Int {
