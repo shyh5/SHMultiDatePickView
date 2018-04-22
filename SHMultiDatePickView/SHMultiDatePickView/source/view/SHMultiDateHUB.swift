@@ -65,23 +65,7 @@ class SHMultiDateView {
         //        window.addGestureRecognizer(tapGesture)
         
         switch pickMode {
-//        case .yesterday:
-//            let mainview = SHSystemDatePick().then {
-//                $0.backgroundColor = UIColor.white
-//                $0.pick = .yesterday
-//                $0.frame = CGRect.init(x: 0, y: IPHONE_HEIGHT - 250, width: IPHONE_WIDTH, height: 250)
-//            }
-//            window.addSubview(mainview)
-//
-//            mainview.sh_basicClick =  { selDate in
-//                clear()
-//                if selDate.length > 0 {
-//                    result(selDate)
-//                }
-//            }
-//
-//            windows.append(window)
-            
+
         case .day:
             let mainview = SHMultiSystemDatePickView.init(frame: CGRect.init(x: 0, y: IPHONE_HEIGHT - 250, width: IPHONE_WIDTH, height: 250) )
             mainview.backgroundColor = UIColor.white
