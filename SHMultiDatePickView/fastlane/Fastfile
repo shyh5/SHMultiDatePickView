@@ -1,0 +1,47 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+
+
+ desc "上传ipa 到fir"
+ lane :firBeta do
+ #打包的ipa存放路径
+ outputDir = "~/firim/ipa/#{Time.now.strftime('%y%m%d')}"
+ #打包的ipa名称
+outputName = "MOFSPickerManager-#{Time.now.strftime("%Y-%m-%d %H:%M:%S")}"
+gym(
+scheme: "SHMultiDatePickView", #改为你项目的scheme
+configuration: "Debug",
+output_directory: outputDir,
+output_name: outputName,
+include_bitcode: false,
+include_symbols: true,
+codesigning_identity: ENV["CODESIGNING_IDENTITY_TO_FIRIM"],
+silent: true,
+export_options: {
+method: "development", #根据具体情况定 app-store、ad-hoc、development、enterprise
+thinning: "<none>"
+}
+)
+firim(firim_api_token: "4995a8a6c0ae1b57fba71c2c50126e57") #上传到firim
+end
+end
